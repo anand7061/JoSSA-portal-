@@ -1,0 +1,311 @@
+body{
+    
+    /* height: 990px;
+    width: 742px; */
+    margin: 3px 3px;
+    padding: 3px;
+    }
+    /* .main-header{
+        display: flex;
+    } */
+.navbar-toggler-collapse{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    display:block;
+   
+}
+.w3-ul-1,.w3-ul-2{
+    width: 100%;
+}
+.w3-large-1{
+    text-align: left;
+    padding: none;
+    padding-top: 2px;
+   
+}
+.w3-large-2{
+    text-align: left;
+    padding: none;
+    padding-bottom: 2px;
+    
+}
+
+.row{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    margin-right: auto;
+    margin-left: calc(var(--bs-gutter-x)*-.5);
+    margin-top: calc(var(--bs-gutter-y)*-1);
+}
+
+.col-1-jossa-logo{
+    padding-top: 10px;
+    margin-left: 20px;  
+    width: 30%; 
+    
+}
+.col-2-main-header{
+    text-align: center;
+    padding-top: 10px;
+    text-align: center;
+    /* margin-left: 17.5%;
+    margin-right: 17.5%; */
+    width: 40%;
+}
+
+.col-3-counselling{
+    padding-top: 10px;
+    margin-right: 20px;
+    width: 30%;
+   
+   
+}
+ .heading-element{
+    font-weight: 700;
+font-size: 15px;
+padding: 0px 0px 7px 0px;
+border-bottom: 1px solid lightgrey;
+margin-top: 5px;
+margin-bottom: 5px;
+background: #fff;
+color: #0e5799;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-weight: 900;
+    font-style: normal;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 25px;
+}
+h3{
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    font-style: normal;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 17px;
+}
+
+.text-center-1,.text-center-2{
+    padding-top: 0px;
+    margin-top: 0px;
+    
+}
+.container-content-2{ margin: 3px;
+    padding: 3px;
+    box-shadow: 1px  1px 10px 0px rgb(103, 99, 99);
+    text-align: center;
+    border-radius: 6px;
+    gap: 15px;
+}
+.text-primary-center{
+    color: rgba(20, 98, 242, 0.838); font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-secondary-center{color: rgba(230, 1, 1, 0.904);
+font-weight: 600;
+font-style: normal; font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
+
+.elementor-heading-title-choice{
+    
+    margin: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 1px  1px 10px 0px rgb(103, 99, 99);
+    
+    border-radius: 6px;
+    
+    
+}
+
+.heading-element{
+text-align: left;
+}
+
+.elementor-heading-title-choice-1,.elementor-heading-title-choice-0,.elementor-heading-title-choice-2,.elementor-heading-title-choice-3,.elementor-heading-title-choice-4,.elementor-heading-title-choice-5{
+display: flex;
+
+}
+.navbar-toggler{
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 50px;
+    height: 45px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.724);
+    border-color: rgba(255, 255, 255, 0.295);
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    /* border: 1px solid transparent; */
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+
+}
+.navbar-dark .navbar-toggler {
+    color: rgba(255, 255, 255, .55);
+    border-color: rgba(255, 255, 255, .1);
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button {
+    border-radius: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+button {
+    appearance: auto;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-variant-alternates: ;
+    font-variant-position: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    font-optical-sizing: ;
+    font-kerning: ;
+    font-feature-settings: ;
+    font-variation-settings: ;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+.navbar-container{
+    background-color: black;
+}
+
+.col-form-label{
+width: 33.3%;
+height: 40px;
+}
+/* .row-1,.row-2,.row-3,.row-4,.row-5{
+flex-basis: auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+} */
+row-input{
+align-items: center;
+align-content: center;
+text-align: center;
+
+}
+
+h4{
+color: rgb(0, 0, 0); font-style: normal;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: left;
+color: black;
+font-size: 17px;
+padding-right: 10px;
+font-weight: 600;
+}
+
+
+input[type="text"],.chosen-select{
+
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    cursor: text;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: 0px  0px 1px 0px rgb(196, 190, 190);
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+    height: 34px;
+    margin-bottom: 10px;
+    
+    
+    
+}
+input[type="submit"]{
+color: #fff;background-color: #0778fa; border-radius: 5px;padding: 6px; padding-left: 15px;padding-right: 15px;  border: none;
+}
+input[type=Submit]:hover{
+background-color: #0360ca;
+cursor: pointer;
+}
+input[type=Submit]:visited{
+    color: rgb(5, 83, 210);
+}
+.footer-primary{
+font-style: normal; text-decoration: none; 
+background-color: rgb(62, 62, 62); 
+width: 100%;
+text-align: center;
+padding-top: 0.1px;
+padding-bottom: 0.1px;
+}
+.header-last{
+text-align: center;
+color: aliceblue;
+background-color: black;
+padding-bottom: 25px;
+}
+.footer-secondary{
+margin-left: 15%;
+margin-right: 15%;
+text-align: center;
+padding-bottom: 30px;
+}
+.footer-secondary-row-1{
+font-size: 13px;
+padding-bottom: 30px;
+padding-top: 15px;
+}
+
+footer a{ font-style: normal;
+text-decoration: none;
+color: azure;
+padding-left: 1px;
+padding-right: 1px;
+text-align: center;
+font-size: 14.5px;
+
+}
+.jossaniclogo{
+margin-left: 35px;
+margin-right: 35px;
+}
