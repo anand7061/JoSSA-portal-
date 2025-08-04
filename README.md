@@ -72,3 +72,87 @@ We welcome suggestions and improvements! Please open issues or pull requests for
 
    ```bash
    git clone https://github.com/alexravi/IIT-PREDICTOR.git
+   Change to the project directory:
+
+bash
+Copy
+Edit
+cd IIT-PREDICTOR
+Create a virtual environment:
+
+bash
+Copy
+Edit
+python3 -m venv venv
+Activate the virtual environment:
+
+On Windows:
+
+bash
+Copy
+Edit
+venv\Scripts\activate
+On macOS/Linux:
+
+bash
+Copy
+Edit
+source venv/bin/activate
+Install all required dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Run the application:
+
+bash
+Copy
+Edit
+python app.py
+Open your browser and navigate to:
+
+arduino
+Copy
+Edit
+http://localhost:8000
+📈 Usage
+Enter your JEE Advanced rank and select category.
+
+Choose your preferred IIT and branch.
+
+Click "Predict" to view your admission probability.
+
+Explore suggestions, visual graphs, and alternatives.
+
+📸 Snapshots
+Below are screenshots of the live application:
+
+<img width="1512" alt="Screenshot 1" src="https://github.com/anand7061/JoSSA-portal-web-clone/blob/main/Screenshot%202025-08-04%20112237.png"> 
+<img width="1512" alt="Screenshot 2" src="https://github.com/anand7061/JoSSA-portal-web-clone/blob/main/Screenshot%202025-08-04%20112237.png"> 
+
+👥 Contributors
+Name	Role	GitHub
+Anand Kumar	Frontend Developer	@anand7061
+Ajay Singh Meena	Backend Developer	@Ajay Singh Meena
+
+### 📜 License
+JOSSA PORTAL is released under the MIT License.
+
+#### 🙏 Acknowledgements
+This project uses open-source tools and libraries. Special thanks to:
+
+The Python & Flask communities
+
+JoSAA for providing public data on admission cutoffs
+
+Contributors and testers who helped improve usability
+
+#### ⭐ Support
+If you found this useful:
+
+##### ⭐ Star this repo
+
+🍴 Fork it to contribute
+
+💬 Share with other JEE aspirants
