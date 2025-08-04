@@ -60,63 +60,56 @@ We welcome suggestions and improvements! Please open issues or pull requests for
 
 ## 🧾 Installation Guide
 
-### 📋 Prerequisites
-
-- Python 3.x installed
-- `pip` (Python package manager)
-- A code editor like VS Code
-
-### ⚙️ Steps to Run Locally
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/alexravi/IIT-PREDICTOR.git
-   Change to the project directory:
+   git clone https://github.com/ajay/JoSSA-portal-web-clone.git
+   ```
 
-bash
-Copy
-Edit
-cd IIT-PREDICTOR
-Create a virtual environment:
+2. Change to the project directory:
 
-bash
-Copy
-Edit
-python3 -m venv venv
-Activate the virtual environment:
+   ```bash
+   cd JoSSA-portal-web-clone
+   ```
 
-On Windows:
+3. Create a virtual environment:
 
-bash
-Copy
-Edit
-venv\Scripts\activate
-On macOS/Linux:
+   ```bash
+   python3 -m venv venv
+   ```
 
-bash
-Copy
-Edit
-source venv/bin/activate
-Install all required dependencies:
+4. Activate the virtual environment:
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the application:
+   - For Windows:
 
-bash
-Copy
-Edit
-python app.py
-Open your browser and navigate to:
+     ```bash
+     venv\Scripts\activate
+     ```
 
-arduino
-Copy
-Edit
-http://localhost:8000
-📈 Usage
+   - For macOS and Linux:
+
+     ```bash
+     source venv/bin/activate
+     ```
+
+5. Install the dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+6. Run the application:
+
+   ```bash
+   python app.py
+   ```
+
+7. Access the application:
+
+   Open a web browser and go to `http://localhost:8000` to access the JoSSA-portal-web-clone application locally.
+
+### 📈 Usage
 Enter your JEE Advanced rank and select category.
 
 Choose your preferred IIT and branch.
